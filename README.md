@@ -6,6 +6,16 @@ Development deployment of this project is running @ http://surighanta.in:8000/ t
 
 ### Prerequisites
 Install python3, pip3, python’s set-up tools.
+
+Example:
+yum install python3-devel
+yum install mysqlclient
+yum install gcc
+
+wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+sudo yum localinstall mysql80-community-release-el7-3.noarch.rpm
+sudo yum install mysql-community-server
+
 Install independent python libraries using the dependencies listed in the dependencies file.
 Install, Start and initialize database in below described structure:
 
