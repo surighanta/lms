@@ -1,1 +1,2 @@
-This is just a sample file
+This is just a sample file for learning
+
